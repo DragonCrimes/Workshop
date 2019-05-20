@@ -31,19 +31,24 @@ https://reactjs.org/tutorial/tutorial.html
 `npm i -g create-react-app`
 
 - We can now create our react app with the following command :
-`create-react-app`
+`create-react-app client`
 
 - We also need another package called Axios for making Get and Post requests :
 `npm i -S axios`
 
+- Put this in your App.js file so we can render something in the browser :
+```javascript
+// client/src/App.js
+import React, { Component } from "react";
 
-MongoDB
+class App extends Component {
+  render() {
+    return <div>I'M READY TO USE THE BACK END APIS! :-)</div>;
+  }
+}
 
-- What is MongoDB and what can we do with it :
-https://www.mongodb.com/what-is-mongodb
-
-- Make a free account on MongoDB Atlas :
-https://www.mongodb.com/
+export default App;
+```
 
 - Direct to the backend folder and type in the terminal 
 `npm init`
@@ -143,3 +148,32 @@ app.use("/api", router);
 app.listen(API_PORT, () => console.log(`LISTENING ON PORT ${API_PORT}`));
 
 ```
+
+- Create another file named data.js and write the following code inside : 
+
+```javascript
+// /backend/data.js
+const mongoose = require("mongoose");
+const Schema = mongoose.Schema;
+
+// this will be our data base's data structure 
+const DataSchema = new Schema(
+  {
+    id: Number,
+    message: String
+  },
+  { timestamps: true }
+);
+
+// export the new Schema so we could modify it using Node.js
+module.exports = mongoose.model("Data", DataSchema);
+
+ ```
+
+ MongoDB
+
+- What is MongoDB and what can we do with it :
+https://www.mongodb.com/what-is-mongodb
+
+- Make a free account on MongoDB Atlas :
+https://www.mongodb.com/
