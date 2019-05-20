@@ -1,7 +1,7 @@
 # Workshop
 
-How to connect React (front-end) to MongoDB (back-end)
-This is a simple fullstack MERN (Mongodb, Express, React, Node)app
+# How to connect React (front-end) to MongoDB (back-end)
+### This is a simple fullstack MERN (Mongodb, Express, React, Node)app
 
 - Clone this repository.
 - Make a project folder , for example fullstack_app.
@@ -30,7 +30,7 @@ https://reactjs.org/
 https://reactjs.org/tutorial/tutorial.html
 
 - Go into the main directory of the project then type in the terminal the following command :
-npm i -g create-react-app
+`npm i -g create-react-app`
 
 - We can now create our react app with the following command :
 create-react-app
