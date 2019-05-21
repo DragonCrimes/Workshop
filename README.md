@@ -8,13 +8,13 @@
 Now, we need to make sure we have nodejs installed in our system, if not here is a link to do it :
 https://www.guru99.com/download-install-node-js.html
 
-###What is NodeJS
+### What is NodeJS
 
 The Node environment includes everything you need to execute a program written in JavaScript :
 https://medium.freecodecamp.org/what-exactly-is-node-js-ae36e97449f5
 
 
-###REACT
+### REACT
 
 - What is react? 
 	React is a JavaScript library created by Facebook,
@@ -167,7 +167,7 @@ module.exports = mongoose.model("Data", DataSchema);
 
  ```
 
- ###MongoDB
+### MongoDB
 
 - What is MongoDB and what can we do with it :
 https://www.mongodb.com/what-is-mongodb
