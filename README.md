@@ -24,7 +24,7 @@ https://medium.freecodecamp.org/what-exactly-is-node-js-ae36e97449f5
 - What can we do with it? 
  
 https://reactjs.org/
-https://reactjs.org/tutorial/tutorial.html
+https://reactjs.org/tutorial/tutorial.html/
 https://medium.com/javascript-in-plain-english/full-stack-mongodb-react-node-js-express-js-in-one-simple-app-6cc8ed6de274
 
 - Go into the main directory of the project then type in the terminal the following command 
