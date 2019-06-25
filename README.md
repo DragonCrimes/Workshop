@@ -3,7 +3,6 @@
 
 - Clone this repository.
 - Make a project folder , for example fullstack_app.
-- In this folder we make 2 new folders named frontend and backend.
 
 Now, we need to make sure we have nodejs installed in our system, if not here is a link to do it :
 https://www.guru99.com/download-install-node-js.html
@@ -26,6 +25,7 @@ https://medium.freecodecamp.org/what-exactly-is-node-js-ae36e97449f5
  
 https://reactjs.org/
 https://reactjs.org/tutorial/tutorial.html
+https://medium.com/javascript-in-plain-english/full-stack-mongodb-react-node-js-express-js-in-one-simple-app-6cc8ed6de274
 
 - Go into the main directory of the project then type in the terminal the following command 
 `npm i -g create-react-app`
